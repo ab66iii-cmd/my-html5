@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+footer{
+    background-color: rgb(242, 237, 237);
+    color: #0a0a0a;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+.grad03{
+    background: linear-gradient(
+        to right bottom,
+        rgb(238, 117, 147) 0%,
+        #fff 50%,
+        rgb(220, 60, 7) 100%);
+}
+
+.grad02{
+    background: linear-gradient(
+        to right,
+        rgb(238, 154, 175) 0%,
+        #fff 50%,
+        rgb(214, 142, 118) 100%   );
+}
+
